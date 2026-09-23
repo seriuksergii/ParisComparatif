@@ -1,0 +1,6 @@
+{
+  "name": "ParisSportifs Comparateur - Guide des Opérateurs Agréés en France",
+  "description": "Guide indépendant et comparatif des plateformes de paris sportifs autorisées en France par l'ANJ. Fiches informatives, licences vérifiées et jeu responsable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Canonical robots file for ParisComparatif.com
+# Crawlers (including Googlebot and AdsBot-Google) are allowed access to all informational pages.
+Sitemap: https://pariscomparatif.com/sitemap.xml
