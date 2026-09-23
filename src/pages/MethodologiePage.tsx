@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Scale, Award, HeartHandshake, CheckCircle2, Lock, Smartphone, CreditCard, Headphones } from 'lucide-react';
+import editorialDeskImage from '../assets/images/editorial_desk_1790152352377.jpg';
 
 export const MethodologiePage: React.FC = () => {
   return (
@@ -37,7 +38,7 @@ export const MethodologiePage: React.FC = () => {
         </div>
         <div className="lg:col-span-5 bg-slate-100 min-h-[240px]">
           <img
-            src="/src/assets/images/editorial_desk_1790152352377.jpg"
+            src={editorialDeskImage}
             alt="Bureau de recherche éditoriale et analyse sportive"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

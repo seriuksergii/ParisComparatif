@@ -4,6 +4,8 @@ import { OperatorCard } from '../components/OperatorCard';
 import { AuditTable } from '../components/AuditTable';
 import { Link } from '../context/RouterContext';
 import { ShieldCheck, CheckCircle2, Search, ArrowRight, Award, Lock, FileCheck2, Scale } from 'lucide-react';
+import heroImage from '../assets/images/hero_paris_sportifs_1790152324141.jpg';
+import responsibleGamingImage from '../assets/images/responsible_gaming_1790152339285.jpg';
 
 export const HomePage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -29,7 +31,7 @@ export const HomePage: React.FC = () => {
         {/* Measured dark overlay for contrast compliance */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_paris_sportifs_1790152324141.jpg"
+            src={heroImage}
             alt="Stade européen moderne"
             className="w-full h-full object-cover opacity-25"
             referrerPolicy="no-referrer"
@@ -274,7 +276,7 @@ export const HomePage: React.FC = () => {
 
           <div className="lg:col-span-5 bg-amber-50 relative min-h-[220px]">
             <img
-              src="/src/assets/images/responsible_gaming_1790152339285.jpg"
+              src={responsibleGamingImage}
               alt="Espace de travail calme symbolisant la modération"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
